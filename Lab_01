@@ -1,6 +1,6 @@
 Create Database using the statement -             create database university;
 To list all the database -                        show databases;
-to switch from any of the database -              use database university;
+to switch from any of the database -              use university;
                                                   create table student (name varchar(20), USN varchar(10), age int);
                                                   create table course (c_name varchar(20), c_id int);
 to list tables-                                   show tables;
@@ -9,9 +9,10 @@ to insert values-                                 insert into student values("An
 To see the values of the tables-                  select * from student;
                                                   select name from student;
                                                   select USN from student;
-To alter table-                                   alter table student add column address varchar(20);
-to alter table (drop any column)-                 alter table student drop column address varchar(20);
-to delete table or database use the command-      drop database_name; & drop table_name; 
+To alter table-                                   alter table student add column name varchar(20);
+to alter table (drop any column)-                 alter table student drop column column_name ;
+to delete table or database use the command-      drop database name; 
+                                                  drop table name; 
 to see the description of the table:              desc student;
 to delete a specified value in a table            delete from student where usn="1cg";
 
